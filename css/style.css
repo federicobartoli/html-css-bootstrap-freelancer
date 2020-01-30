@@ -113,6 +113,12 @@ h1 {
     margin-top: 30px;
 }
 
+
+.pointer:hover {
+    filter: drop-shadow(10px 10px 100px green);
+}
+
+
 @media screen and (max-width:420px) {
     .col-xs-9 {
         width: calc((100% / 12) * 12);
