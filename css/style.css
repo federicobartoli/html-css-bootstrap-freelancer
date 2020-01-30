@@ -66,7 +66,7 @@ body {
     background-color: #1abc9c;
 }
 
-.col-xs-12 img {
+.ciaooo img {
     padding-top: 100px;
     max-width: 250px;
 }
@@ -79,8 +79,16 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.love h2 {
     color: white;
+    font-size: 20px;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    color: #2c3e50;
+    padding-top: 50px;
+    text-transform: uppercase;
 }
 
 .glyphicon-star {
@@ -89,6 +97,21 @@ h2 {
     text-align: center;
 }
 
+.black {
+    color: #2c3e50;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.pointer img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-top: 30px;
+}
 
 @media screen and (max-width:420px) {
     .col-xs-9 {
@@ -104,6 +127,10 @@ h2 {
         padding: 5px;
     }
 
+    .pointer img {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -115,5 +142,17 @@ h2 {
 @media screen and (max-width:992px) {
     .ciao {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pointer img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .pointer img {
+        max-width: 100%;
     }
 }
