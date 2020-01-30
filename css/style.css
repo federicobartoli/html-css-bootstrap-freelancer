@@ -1,0 +1,119 @@
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    text-transform: uppercase;
+    height: 90px;
+    border: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-green {
+    background-color: #1abc9c;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.btn-green:hover {
+    background-color: #148f77;
+    color: white;
+}
+
+
+.destra {
+    text-align: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.start {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.start3 {
+    padding: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.start3 a {
+    margin-right: 40px;
+}
+
+.start3 a:hover {
+    color: #1abc9c;
+}
+
+.start2 {
+    padding: 24px;
+    font-weight: 700;
+}
+
+.greenfluid {
+    background-color: #1abc9c;
+}
+
+.col-xs-12 img {
+    padding-top: 100px;
+    max-width: 250px;
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.glyphicon-star {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:420px) {
+    .col-xs-9 {
+        width: calc((100% / 12) * 12);
+        text-align: center;
+        padding: 5px;
+    }
+
+    .col-xs-3 {
+        width: calc((100% / 12) * 12);
+        background-color: #2c3e50;
+        text-align: center;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .col-xs-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .ciao {
+        display: none;
+    }
+}
