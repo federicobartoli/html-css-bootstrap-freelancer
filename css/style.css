@@ -139,6 +139,17 @@ h1 {
     font-size: 20px;
 }
 
+.xxxs {
+    margin-bottom: 30px;
+}
+
+.btn-default {
+    border: 2px solid white;
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 40px;;
+}
+
 
 @media screen and (max-width:420px) {
     .col-xs-9 {
