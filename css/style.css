@@ -62,8 +62,17 @@ body {
     font-weight: 700;
 }
 
+.aboute {
+    margin-top: 20px;
+}
+
 .greenfluid {
     background-color: #1abc9c;
+}
+
+.greenfluida {
+    background-color: #1abc9c;
+    margin-top: 40px;
 }
 
 .ciaooo img {
@@ -116,6 +125,18 @@ h1 {
 
 .pointer:hover {
     filter: drop-shadow(10px 10px 100px green);
+}
+
+.about h2 {
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.about p {
+    color: white;
+    font-size: 20px;
 }
 
 
