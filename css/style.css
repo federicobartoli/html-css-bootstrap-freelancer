@@ -108,8 +108,30 @@ h1 {
 .glyphicon-star {
     color: white;
     font-size: 40px;
-    text-align: center;
 }
+
+.ms--star:before,
+.ms--star:after {
+    content: "" ;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+}
+
+.ms--starblack:before,
+.ms--starblack:after {
+    content: "" ;
+    width: 100px;
+    height: 2px;
+    background-color: #2c3e50;
+    position: relative;
+    bottom: 20px;
+    display: inline-block;
+}
+
 
 .black {
     color: #2c3e50;
@@ -117,6 +139,29 @@ h1 {
 
 .pointer {
     cursor:pointer;
+    position: relative;
+}
+
+.overlay {
+    display: none
+}
+
+.pointer:hover .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26,188,156,.9);
+    display: block;
+    border-radius: 10px;
+}
+
+.overlay span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 50px;
+    color: white;
 }
 
 .pointer img {
@@ -128,9 +173,9 @@ h1 {
 }
 
 
-.pointer:hover {
+/* .pointer:hover {
     filter: drop-shadow(10px 10px 100px green);
-}
+} */
 
 .about h2 {
     font-size: 40px;
@@ -211,7 +256,7 @@ h4 {
     }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .ciao {
         display: none;
     }
