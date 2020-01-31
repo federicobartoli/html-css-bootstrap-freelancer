@@ -234,9 +234,9 @@ h4 {
     margin-top: 10px;
 }
 
-.btn-top {
-    background-color: white;
-    border-radius: 50%
+.myclassbutton {
+    color:#f8f9fa;
+    border-color:#f8f9fa;
 }
 
 .bottombtm {
